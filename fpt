@@ -41,14 +41,13 @@ https://synguyen.net/api/token/75c8a457ecdecf2c22c1c5e818b73fa1/getlink/sctv/id/
 
 
 #EXTINF:0 tvg-id="boxhits" group-title="🇧🌎🇽" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", BOX Hits
-https://synguyen.net/api/token/75c8a457ecdecf2c22c1c5e818b73fa1/getlink/mytv/id/105
+https://s2129133.cdn.mytvnet.vn/v5live.m3u8?c=vstv564&q=auto&deviceType=127&userId=15793979&deviceId=29441051&type=tv&p=0&zn=netott&rkey=15793979bJ5jBmAS&ctl=9.38&hc=ctl10&sl=6&drmsrv=ctl10.mytvnet.vn&naddr=113.171.129.133&pkg=pkg31.hni&profiles=hd,sd&&bhd=6000000&bsd=3000000&location=VTL&rbk=17216241140&pnode=172.16.237.68&isp=all
 #EXTINF:-1 tvg-id="woman" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png" catchup="append" catchup-days="2" catchup-source="https://synguyen.net/api/token/1f77a8b8786b9b2720849e3cd2f91394/getlink/tv360/id/163/xemlai/${start}-${offset}", Woman
 https://synguyen.net/api/token/1f77a8b8786b9b2720849e3cd2f91394/getlink/tv360/id/163
 
 
 #EXTINF:0 tvg-id="inthebox" group-title="🇧🌎🇽" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
-https://synguyen.net/api/token/1f77a8b8786b9b2720849e3cd2f91394/getlink/vthanh/sv/2/id/IN_THE_BOX   						
+http://sg.tinchuanchuaanh.com:8080/IN_THE_BOX/index.m3u8
 
 #EXTINF:-1 tvg-id="cartoonhd" tvg-logo="https://cdn.hqth.me/logo/thumbs/198.png", Cartoon Network HD
 #EXTVLCOPT:http-user-agent=VThanhTivi
