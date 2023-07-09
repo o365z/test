@@ -25,8 +25,9 @@ http://sg.tinchuanchuaanh.com:8080/BOX_MOVIE_1/index.m3u8
 #https://vtsstr7.tv24.vn/live/smil:BOX_MOVIE_HD.smil/chunklist.m3u8
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1 SCTV
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/8.0.8 (Linux;Android 10) ExoPlayerLib/2.3.4
+#EXTVLCOPT:http-referrer=https://sctvonline.vn
+https://synguyen.net/api/token/75c8a457ecdecf2c22c1c5e818b73fa1/getlink/sctv/id/box-movie-1#|Referer=https://sctvonline.vn
 
 
 
@@ -34,12 +35,13 @@ https://e4.endpoint.cdn.sctvonline.vn/hls/boxmovie1/sd2/index.m3u8
 http://sg.tinchuanchuaanh.com:8080/HOLLYWOOD_CLASSICS/index.m3u8
 
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics SCTV
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-https://e4.endpoint.cdn.sctvonline.vn/hls/hollywood/sd2/index.m3u8
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/8.0.8 (Linux;Android 10) ExoPlayerLib/2.3.4
+#EXTVLCOPT:http-referrer=https://sctvonline.vn
+https://synguyen.net/api/token/75c8a457ecdecf2c22c1c5e818b73fa1/getlink/sctv/id/hollywood-classic#|Referer=https://sctvonline.vn
 
 
 #EXTINF:0 tvg-id="boxhits" group-title="🇧🌎🇽" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", BOX Hits
-https://code.vthanhtivi.pw/getlink/mytv/105/hd.m3u8
+https://synguyen.net/api/token/75c8a457ecdecf2c22c1c5e818b73fa1/getlink/mytv/id/105
 #EXTINF:-1 tvg-id="woman" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png" catchup="append" catchup-days="2" catchup-source="https://synguyen.net/api/token/1f77a8b8786b9b2720849e3cd2f91394/getlink/tv360/id/163/xemlai/${start}-${offset}", Woman
 https://synguyen.net/api/token/1f77a8b8786b9b2720849e3cd2f91394/getlink/tv360/id/163
 
