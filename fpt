@@ -43,7 +43,7 @@ https://synguyen.net/api/token/75c8a457ecdecf2c22c1c5e818b73fa1/getlink/sctv/id/
 #EXTINF:0 tvg-id="boxhits" group-title="🇧🌎🇽" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", BOX Hits
 https://s2129133.cdn.mytvnet.vn/v5live.m3u8?c=vstv564&q=auto&deviceType=127&userId=15793979&deviceId=29441051&type=tv&p=0&zn=netott&rkey=15793979bJ5jBmAS&ctl=9.38&hc=ctl10&sl=6&drmsrv=ctl10.mytvnet.vn&naddr=113.171.129.133&pkg=pkg31.hni&profiles=hd,sd&&bhd=6000000&bsd=3000000&location=VTL&rbk=17216241140&pnode=172.16.237.68&isp=all
 #EXTINF:-1 tvg-id="woman" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png" catchup="append" catchup-days="2" catchup-source="https://synguyen.net/api/token/1f77a8b8786b9b2720849e3cd2f91394/getlink/tv360/id/163/xemlai/${start}-${offset}", Woman
-https://synguyen.net/api/token/1f77a8b8786b9b2720849e3cd2f91394/getlink/tv360/id/163
+http://27.67.80.86:18080/169.m3u8?AdaptiveType=HLS&VOD_RequestID=/0BqRzl1VbsZ/VFgXjcv/9rJKLMR4hG0CNToZVmOeqmUV/tpNQtJ4qzUTZT/f3OElOU3x7T/35m65HHu8cQsjITMUoekqnB/36LYR+gGduiZdKtZNz2UjT8Il2ZgQ1NTrvxo/EY/vAvA+RwfZzEFb9tbdhHA2OILGewTXtzpVctjY0MaoOv+7Ry8QcPpgM4k&uid=10072786&SessionID=371a06d0-7a9f-4d77-8fa2-d6fe4dd5785f&StreamID=ef84c3a3-2eb0-407e-a961-30db22703c1d&MinBw=0&MaxBw=20000000
 
 
 #EXTINF:0 tvg-id="inthebox" group-title="🇧🌎🇽" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
