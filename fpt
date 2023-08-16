@@ -1,12 +1,12 @@
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml.gz,http://trada.info/epg.xml"
 
-#EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://cdn.hqth.me/logo/thumbs/1.png" catchup-type="default" catchup-days="2" catchup-source="https://synguyen.netmytv/id/210/xemlai/${start}-${offset}", VTV1 HD
+#EXTINF:-1 tvg-id="vtv1hd" tvg-logo="https://cdn.hqth.me/logo/thumbs/1.png", VTV1 HD
 #EXTVLCOPT:http-user-agent=VThanhTivi
 udp://@225.1.3.1:30120
-#EXTINF:-1 tvg-id="vtv2hd" tvg-logo="https://cdn.hqth.me/logo/thumbs/2.png" catchup-type="default" catchup-days="2" catchup-source="https://synguyen.netmytv/id/377/xemlai/${start}-${offset}", VTV2 HD
+#EXTINF:-1 tvg-id="vtv2hd" tvg-logo="https://cdn.hqth.me/logo/thumbs/2.png", VTV2 HD
 #EXTVLCOPT:http-user-agent=VThanhTivi
 udp://@225.1.3.5:30120
-#EXTINF:-1 tvg-id="vtv3hd" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png" catchup-type="default" catchup-days="2" catchup-source="https://synguyen.netmytv/id/211/xemlai/${start}-${offset}", VTV3 HD
+#EXTINF:-1 tvg-id="vtv3hd" tvg-logo="https://cdn.hqth.me/logo/thumbs/3.png", VTV3 HD
 #EXTVLCOPT:http-user-agent=VThanhTivi
 udp://@225.1.3.2:30120
 
@@ -17,18 +17,14 @@ udp://@225.1.3.10:30120
 #EXTVLCOPT:http-user-agent=VThanhTivi
 udp://@225.1.3.14:30120
 
-#EXTINF:-1 tvg-id="boxhits" group-title="07.Giả si trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-https://synguyen.netmytv/id/105
-
 #EXTINF:-1 tvg-id="boxmovie1"  tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/coocaa
-https://dl.dropboxusercontent.com/s/wms41claawxdpww/ 																															ㅤ?box-movie1								 												 |Referer=https://sctvonline.vn/ 
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
+http://live-vnp.vthanhtivi.pw:18001/BOX_MOVIE_1/index.m3u8
 
 #EXTINF:-1 tvg-id="hollywoodclassics" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
-#EXTVLCOPT:http-user-agent=ExoPlayerLib/coocaa
-https://dl.dropboxusercontent.com/s/8800f62718isn9x/ 																															ㅤ?hollywood-classics								 										 |Referer=https://sctvonline.vn/ 
-#EXTVLCOPT:http-referer=https://sctvonline.vn/
+http://live-vnp.vthanhtivi.pw:18001/HOLLYWOOD_CLASSICS/index.m3u8
+
+#EXTINF:-1 tvg-id="boxhits" group-title="07.Giả si trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
+http://live-vnp.vthanhtivi.pw:18001/BOX_HITS/index.m3u8
 
 #EXTINF:-1 tvg-id="woman" group-title="07.Gi ải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png" catchup-type="default" catchup-days="2" catchup-source="https://synguyen.nettv360/id/163/xemlai/${start}-${offset}", Woman
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/coocaa
@@ -823,88 +819,3 @@ https://livecdn.fptplay.net/hda2/travelliving_vhls.smil/chunklist_b5000000.m3u8
 #EXTINF:-1 tvg-id="warnertvhd" group-title="🎬| Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/237.png" catchup="append" catchup-days="2" catchup-source="https://tshift.fptplay.net/dvr/warnertv_1000.stream/chunks_dvr_range-${start}-${offset}.m3u8", Warner TV
 #EXTVLCOPT:http-user-agent=VThanhTivi
 http://livecdn.fptplay.net/hda3/warnertv_vhls.smil/chunklist_b5000000.m3u8
-
-#-*--Giải trí-*--#
-
-#EXTINF:-1 tvg-id="hbohd" group-title="07.Giải trí" group-logo="https://play-lh.googleusercontent.com/yAW_sifnYnWP1RtZTrt1u5yrH-OjXFnO6AsIaYXEEppbzEsNxvFzc1Y46Z0ODKimyQ" tvg-logo="https://cdn.hqth.me/logo/thumbs/185.png", HBO HD
-https://synguyen.netbep/id/hbo
-
-#EXTINF:-1 tvg-id="cinemaxhd" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/186.png", Cinemax HD
-https://synguyen.netbep/id/cinemax
-
-#EXTINF:-1 tvg-id="boxmovie1" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
-https://synguyen.netcliptv/id/822
-
-#EXTINF:-1 tvg-id="hollywoodclassics" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
-https://synguyen.netvthanh/sv/2/id/HOLLYWOOD_CLASSICS
-
-#EXTINF:-1 tvg-id="inthebox" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/189.png", In The Box
-https://synguyen.netcliptv/id/838
-
-#EXTINF:-1 tvg-id="boxhits" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-https://synguyen.netmytv/id/105
-
-#EXTINF:-1 tvg-id="man" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/191.png" catchup-type="default" catchup-days="2" catchup-source="https://synguyen.nettv360/id/237/xemlai/${start}-${offset}", Man
-https://synguyen.nettv360/id/237
-
-#EXTINF:-1 tvg-id="drfithd" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png" catchup-type="default" catchup-days="2" catchup-source="https://synguyen.nettv360/id/162/xemlai/${start}-${offset}", Dr.Fit
-https://synguyen.nettv360/id/162
-
-#EXTINF:-1 tvg-id="happykids" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png" catchup-type="default" catchup-days="2" catchup-source="https://synguyen.nettv360/id/212/xemlai/${start}-${offset}", Happy Kids
-https://synguyen.nettv360/id/212
-
-#EXTINF:-1 tvg-id="musicbox" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/257.png", Music Box
-https://synguyen.netmytv/id/69
-
-#EXTINF:-1 tvg-id="planetearthhd" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png" catchup-type="default" catchup-days="2" catchup-source="https://synguyen.nettv360/id/135/xemlai/${start}-${offset}", Planet Earth
-https://synguyen.nettv360/id/135
-
-#EXTINF:-1 tvg-id="woman" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png" catchup-type="default" catchup-days="2" catchup-source="https://synguyen.nettv360/id/163/xemlai/${start}-${offset}", Woman
-https://synguyen.nettv360/id/163
-
-#EXTINF:-1 tvg-id="boxmovie1" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1 SCTV
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/8.0.8 (Linux;Android 10) ExoPlayerLib/2.3.4
-#EXTVLCOPT:http-referrer=https://sctvonline.vn
-https://synguyen.netsctv/id/box-movie-1#|Referer=https://sctvonline.vn
-
-#EXTINF:-1 tvg-id="hollywoodclassics" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics SCTV
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/8.0.8 (Linux;Android 10) ExoPlayerLib/2.3.4
-#EXTVLCOPT:http-referrer=https://sctvonline.vn
-https://synguyen.netsctv/id/hollywood-classic#|Referer=https://sctvonline.vn
-
-#EXTINF:-1 tvg-id="drfithd" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/192.png", Dr.Fit SCTV
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/8.0.8 (Linux;Android 10) ExoPlayerLib/2.3.4
-#EXTVLCOPT:http-referrer=https://sctvonline.vn
-https://synguyen.netsctv/id/dr-fit#|Referer=https://sctvonline.vn
-
-#EXTINF:-1 tvg-id="happykids" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/193.png", Happy Kids SCTV
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/8.0.8 (Linux;Android 10) ExoPlayerLib/2.3.4
-#EXTVLCOPT:http-referrer=https://sctvonline.vn
-https://synguyen.netsctv/id/happy-kids#|Referer=https://sctvonline.vn
-
-#EXTINF:-1 tvg-id="planetearthhd" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/194.png", Planet Earth SCTV
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/8.0.8 (Linux;Android 10) ExoPlayerLib/2.3.4
-#EXTVLCOPT:http-referrer=https://sctvonline.vn
-https://synguyen.netsctv/id/planet-earth#|Referer=https://sctvonline.vn
-
-#EXTINF:-1 tvg-id="woman" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png", Woman SCTV
-#EXTVLCOPT:http-user-agent=ReactNativeVideo/8.0.8 (Linux;Android 10) ExoPlayerLib/2.3.4
-#EXTVLCOPT:http-referrer=https://sctvonline.vn
-https://synguyen.netsctv/id/woman#|Referer=https://sctvonline.vn
-
-#EXTINF:-1 tvg-id="axnhd" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/227.png", AXN HD
-https://synguyen.netvthanh/sv/2/id/AXN_HD
-
-#EXTINF:-1 tvg-id="dmax" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/230.png", DMAX
-
-#EXTINF:-1 tvg-id="cinemaworldhd" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/231.png", CinemaWorld
-
-#EXTINF:-1 tvg-id="hits" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/233.png", HITS
-https://synguyen.netmytv/id/515
-
-#EXTINF:-1 tvg-id="hgtv" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/234.png", HGTV
-https://synguyen.nettv360/id/99
-
-#EXTINF:-1 tvg-id="kix" group-title="07.Giải trí" tvg-logo="https://cdn.hqth.me/logo/thumbs/235.png" catchup-type="default" catchup-days="2" catchup-source="https://synguyen.netfpt/id/kix/xemlai/${start}-${offset}", KIX HD
-https://synguyen.netfpt/id/kix
-
