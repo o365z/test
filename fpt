@@ -13,13 +13,19 @@ udp://@225.1.3.10:30120
 udp://@225.1.3.14:30120
 
 #EXTINF:-1 tvg-id="boxmovie1" group-title="My List" tvg-logo="https://cdn.hqth.me/logo/thumbs/187.png", Box Movie 1
-http://live-vnp.vthanhtivi.pw:18001/BOX_MOVIE_1/index.m3u8
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/coocaa/ 
+#EXTVLCOPT:http-referer=https://sctvonline.vn/ 
+https://dl.dropboxusercontent.com/s/wms41claawxdpww/ 																																 ㅤ?movie1								 												 |Referer=https://sctvonline.vn/ 
 
 #EXTINF:-1 tvg-id="hollywoodclassics" group-title="My List" tvg-logo="https://cdn.hqth.me/logo/thumbs/188.png", Hollywood Classics
-http://live-vnp.vthanhtivi.pw:18001/HOLLYWOOD_CLASSICS/index.m3u8
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/coocaa/ 
+#EXTVLCOPT:http-referer=https://sctvonline.vn/ 
+https://dl.dropboxusercontent.com/s/8800f62718isn9x/ 																																 ㅤ?hollywood								 										 |Referer=https://sctvonline.vn/ 
 
 #EXTINF:-1 tvg-id="boxhits" group-title="My List" tvg-logo="https://cdn.hqth.me/logo/thumbs/190.png", Box Hits
-http://live-vnp.vthanhtivi.pw:18001/BOX_HITS/index.m3u8
+#EXTVLCOPT:http-user-agent=ExoPlayerLib/coocaa/ 
+#EXTVLCOPT:http-referer=https://sctvonline.vn/ 
+https://dl.dropboxusercontent.com/s/67k1qz14740vl5u/ 																																	 ㅤ?box-hits								 												 |Referer=https://sctvonline.vn/ 
 
 #EXTINF:-1 tvg-id="woman" group-title="My List" tvg-logo="https://cdn.hqth.me/logo/thumbs/195.png" catchup-type="default" catchup-days="2" catchup-source="https://synguyen.nettv360/id/163/xemlai/${start}-${offset}", Woman
 #EXTVLCOPT:http-user-agent=ExoPlayerLib/coocaa
